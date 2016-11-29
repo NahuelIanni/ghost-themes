@@ -43,8 +43,13 @@ $(function () {
         return false;
     });
 
-    $('#google-plus').click(function () {
-        window.open(this.href, 'google-plus-share', 'width=490,height=530');
+    $('#linkedin').click(function () {
+        window.open(this.href, 'linkedin-share', 'width=490,height=530');
+        return false;
+    });
+
+    $('#reddit').click(function () {
+        window.open(this.href, 'reddit-share', 'width=490,height=530');
         return false;
     });
 
