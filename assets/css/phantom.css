@@ -136,6 +136,21 @@ strong {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
 }
+.navigation-index {
+	float: right;
+}
+.navigation ul {
+    list-style-type: none;
+    line-height:90px;
+	margin:0;
+}
+.navigation li {
+    float: left;
+    position: relative;
+}
+.navigation li a {
+    margin: 5px;
+}
 .content, .brand {
 	display:block;
 	float:left;
