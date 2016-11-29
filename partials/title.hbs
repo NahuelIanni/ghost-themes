@@ -1,4 +1,6 @@
 <div class="title animated fadeInUp">
     <h1>{{title}}</h1>
-    {{> share}}
+    {{#is "post"}}
+        {{> share}}
+    {{/is}}
 </div>
