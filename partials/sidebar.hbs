@@ -3,11 +3,11 @@
         <strong>Published</strong>
         <time class="timeago" datetime="{{date format="YYYY-MM-DDTHH:mm:ssZ"}}" title="{{date format="MMMM D [']YY [at] H:mm"}}">{{date timeago="true"}}</time>
     </div>
-    <span class="separator animated fadeInUp">//</span>
-    <div class="tags animated fadeInUp">
-        {{#if tags}}
+    {{#if tags}}
+        <span class="separator animated fadeInUp">//</span>
+        <div class="tags animated fadeInUp">
             <strong>Tags</strong>
             {{tags separator=""}}
-        {{/if}}
-    </div>
+        </div>
+    {{/if}}
 </div>
