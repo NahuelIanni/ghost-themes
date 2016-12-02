@@ -509,6 +509,9 @@ header .share a {
 		font-size: 18px;
 		max-width: 400px;
 	}
+	.navigation {
+		height:150px;
+	}
 }
 @media (max-width: 480px) {
 	p, ul, ol {
