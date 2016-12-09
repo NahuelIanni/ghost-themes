@@ -97,7 +97,7 @@ strong {
 }
 .container, .pagination {
 	position:relative;
-	width:700px;
+	width:800px;
 	margin:0 auto;
 }
 .pagination {
@@ -274,7 +274,7 @@ article p > img, article a > img {
 }
 .article-image {
 	width:940px;
-	margin:80px -150px;
+	margin:80px -75px;
 }
 article h1, article h2, article h3 {
 	font-weight:300;
@@ -327,7 +327,7 @@ article input:focus {
 	border-radius: 50%;
 }
 .author .info {
-	width: 580px;
+	width: 680px;
 	float: left;
 	margin-left: 15px;
 }
