@@ -275,6 +275,9 @@ article p > img, article a > img {
 .article-image {
 	width:940px;
 	margin:80px -75px;
+	text-align:center;
+	font-style:italic;
+	font-size:medium;
 }
 article h1, article h2, article h3 {
 	font-weight:300;
@@ -358,6 +361,23 @@ footer {
 	animation-delay:2s;
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
+}
+.footnotes {
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+}
+
+.footnotes li {
+    margin: 0.6rem 0;
+}
+
+.footnotes p {
+    margin: 0;
+}
+
+.footnotes p a:last-child {
+    text-decoration: none;
 }
 .copyright {
 	font-size:30px;
@@ -509,6 +529,12 @@ header .share a {
 		font-size: 18px;
 		max-width: 400px;
 	}
+	.footnotes li {
+		font-size: 14px;
+	}
+	p.article-image{
+		font-size: 14px;
+	}
 	.navigation {
 		height:150px;
 	}
@@ -595,6 +621,12 @@ header .share a {
 		max-width: 270px;
 		margin: 10px 0 0 0;
 	}
+	.footnotes li {
+		font-size: 13px;
+	}
+	p.article-image{
+		font-size: 13px;
+	}
 }
 @media print {
 	header .share {
@@ -612,5 +644,5 @@ header .share a {
 	}
 	.comments, footer {
 		display: none;
-	}
+    }
 }
